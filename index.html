@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<style type="text/css">
+		.h-1{
+			height: 100px;
+		}
+		.h-2{
+			height: 400px;
+		}
+		.h-3{
+			height: 1000px;
+		}
+		.h-4{
+			height: 550px
+		}
+		.h-5{
+			height: 230px;
+		}
+		.h-6{
+			height: 1600px;
+		}
+		.logo-text{
+			color: white;
+			margin-left: 20px;
+
+		}
+		.bg-1{
+			background-color: #21252b
+		}
+		.bg-2{
+			background: rgb(15,46,73);
+			background: linear-gradient(0deg, rgba(15,46,73,1) 0%, rgba(16,45,62,1) 62%, rgba(15,34,59,1) 100%);
+		}
+		.bg-3{
+			background: rgb(42,54,65);
+			background: linear-gradient(0deg, rgba(42,54,65,1) 0%, rgba(105,153,232,1) 100%, rgba(94,145,212,1) 100%);
+		}
+		.bg-striped{
+			background-image: linear-gradient(45deg, #141629 12.50%, #19222e 12.50%, #19222e 50%, #141629 50%, #141629 62.50%, #19222e 62.50%, #19222e 100%);
+			background-size: 5.66px 5.66px;
+		}
+	</style>
+</head>
+<body>
+	<div class="col-12 bg-1 h-1">
+		<div class="col-8 mx-auto h-1 d-flex">
+			<div class="col-4 h-1">
+				<img src="logo.png" class="w-100">
+			</div>
+			<div class="col-8 h-1 d-flex pt-4">
+				<p class="logo-text">МАГАЗИН</p>
+				<p class="logo-text">СООБЩЕСТВО</p>
+				<p class="logo-text">ЧАТ</p>
+				<p class="logo-text">ПОДДЕРЖКА</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 h-2" style="background-image: url(banner.jpg); background-size: 100% 100%">
+		
+	</div>
+	<div class="col-12 bg-2 text-white">
+		<div class="col-8 mx-auto pt-4 pb-4 h-6" >
+			<div class="col-12" >
+				<h6>ПОПУЛЯРНОЕ И РЕКОМЕНДУЕМОЕ</h6> 
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      	<div class="d-flex bg-striped shadow ">
+								<div class="col-8 h-2" >
+									<img src="header1.jpg" class="w-100">
+								</div>
+								<div class="col-4 h-2  p-0" >
+										<h4 class="ml-2">Red Dead Redemption 2</h4>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img1.jpg" class="w-100 col-12  h-1 ">
+												</div>
+												<div class="row">
+													<img src="img2.jpg" class="w-100 col-12  h-1 ml-1">
+												</div>	
+											</div>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img3.jpg" class="w-100 col-12  h-1 mt-1">
+												</div>
+												<div class="row">
+													<img src="img4.jpg" class="w-100 col-12  h-1 ml-1 mt-1">
+												</div>	
+											</div>
+											<h5 class="ml-2 mt-2">Уже доступно</h5>
+											<button class="btn btn-secondary btn-sm">лидер продаж</button>
+											<p class="ml-2 mt-4">1999руб</p>
+								</div>
+							</div>
+					    </div>
+					    <div class="carousel-item">
+					      
+					      <div class="d-flex bg-striped" data-toggle="modal" data-target="#exampleModal">
+					      	<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title text-dark" id="exampleModalLabel">Fall Guys: Ultimate Knockout</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								        <p class="small text-dark" id="exampleModalLabel">Дата выпуска: 4авг 2020</p>
+								        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+										  <div class="carousel-inner">
+										    <div class="carousel-item active">
+										        <img src="img5.jpg" class="d-block w-100" alt="...">
+										    </div>
+										    <div class="carousel-item">
+										      <img src="img6.jpg" class="d-block w-100" alt="...">
+										    </div>
+										    <div class="carousel-item">
+										      <img src="img7.jpg" class="d-block w-100" alt="...">
+										    </div>
+										    <div class="carousel-item">
+										      <img src="img8.jpg" class="d-block w-100" alt="...">
+										    </div>
+										  </div>
+										</div>
+										<p class="small bg-dark" id="exampleModalLabel">Все обзоры:</p>
+										<p class="small text-primary" id="exampleModalLabel">В основном положительные (всего 192 997)</p>
+										<p class="small text-dark" id="exampleModalLabel">Пользовательские метки:</p>
+										<p class="small text-dark" id="exampleModalLabel">Для нескольких игроков</p>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								<div class="col-8 h-2 " >
+									<img src="pop1.jpg" class="w-100">
+								</div>
+								<div class="col-4 h-2   p-0" >
+										<h4 class="ml-2">Fall Guys: Ultimate Knockout</h4>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img5.jpg" class="w-100 col-12  h-1 ">
+												</div>
+												<div class="row">
+													<img src="img6.jpg" class="w-100 col-12  h-1 ml-1">
+												</div>	
+											</div>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img7.jpg" class="w-100 col-12  h-1 mt-1">
+												</div>
+												<div class="row">
+													<img src="img8.jpg" class="w-100 col-12  h-1 ml-1 mt-1">
+												</div>	
+											</div>
+											<h5 class="ml-2 mt-2">Уже доступно</h5>
+											<button class="btn btn-secondary btn-sm">лидер продаж</button>
+											<p class="ml-2 mt-4">899руб</p>
+								</div>
+							</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="d-flex bg-striped">
+								<div class="col-8 h-2 " >
+									<img src="header10.jpg" class="w-100">
+								</div>
+								<div class="col-4 h-2   p-0" >
+										<h4 class="ml-2">Amnesia: Rebirth</h4>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img9.jpg" class="w-100 col-12  h-1 ">
+												</div>
+												<div class="row">
+													<img src="img10.jpg" class="w-100 col-12  h-1 ml-1">
+												</div>	
+											</div>
+											<div class="d-flex">
+												<div class="row">
+													<img src="img11.jpg" class="w-100 col-12  h-1 mt-1">
+												</div>
+												<div class="row">
+													<img src="img12.jpg" class="w-100 col-12  h-1 ml-1 mt-1">
+												</div>
+											</div>
+											<h5 class="ml-2 mt-2">Уже доступно</h5>
+											<button class="btn btn-secondary btn-sm">лидер продаж</button>
+											<p class="ml-2 mt-4">1999руб</p>
+								</div>
+							</div>
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+			</div>
+			<div class="col-12 h-4 mt-4 pb-4" >
+				<h6>БИБЛИОТЕКА ИГР</h6> 
+				
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <div class="col-12 h-5 d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header4.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 269</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header5.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header6.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+						<div class="col-12 h-5 d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header7.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header8.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header9.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      <div class="col-12 h-5  d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header4.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 269</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header5.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header6.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+						<div class="col-12  h-5  d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header7.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header8.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header9.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      <div class="col-12 h-5  d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header4.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 269</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header5.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header6.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+						<div class="col-12  h-5  d-flex">
+							<div class="col-4 p-0 shadow">
+								<img src="header7.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header8.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+							<div class="col-4 p-0 shadow">
+								<img src="header9.jpg" class="col-12">
+								<button class="ml-3 mt-2 btn btn-secondary btn-sm">купить за 1999</button>
+							</div>
+						</div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-12 mt-4" >
+				<h6>СООБЩЕСТВО РЕКОМЕНДУЕТ</h6>
+				<div class="d-flex bg-3 shadow-lg border border-dark">
+					<div class="col-8 h-2  pl-0 pr-0" >
+						<div class="row">
+							<iframe width="765" height="398" src="https://www.youtube.com/embed/41FRpY-JcN4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="col-12" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-4 h-2 " >
+						<h5 class="mt-4">Легендарный разработчик Хидео Кодзима выпускает новую знаковую для жанра игру. Сэм Бриджес должен преодолеть мир, трансформированный Петлёй смерти. Держа в своих руках бессвязные остатки нашего будущего, он отправился в дорогу, чтобы восстановить связь между осколками мира.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
